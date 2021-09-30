@@ -1,8 +1,12 @@
 const express = require('express')
 const app = express()
+const path = require('path')
+
+
+app.use(express.static(path.join(__dirname, 'public')))
 
 app.get('/prueba', (req, res) =>{
-    res.send('Prueba de servidor funcionando')
+    res.sendFile(path.join(__dirname, 'index.html'))
 })
 
 app.listen(8081, ()=>{
