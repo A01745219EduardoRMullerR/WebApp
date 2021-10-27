@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1458e567-6a77-45bf-a3c4-71816ad1fd53" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/controller/playlists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/playlists.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/router/playlists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_30_2021_5_23_PM_[Changes]/pelon.JPG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_30_2021_5_23_PM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_9_30_2021_5_23_PM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -51,7 +59,12 @@
       <option name="presentableId" value="Default" />
       <updated>1633041282679</updated>
       <workItem from="1633041286574" duration="18000" />
-      <workItem from="1633042489991" duration="1929000" />
+      <workItem from="1633042489991" duration="2669000" />
+      <workItem from="1633387039199" duration="969000" />
+      <workItem from="1633490155062" duration="43000" />
+      <workItem from="1633645331206" duration="1215000" />
+      <workItem from="1634076364584" duration="392000" />
+      <workItem from="1635313863868" duration="1552000" />
     </task>
     <servers />
   </component>
@@ -68,5 +81,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

@@ -19,11 +19,12 @@
   "homepage": "https://github.com/A01745219EduardoRMullerR/WebApp#readme",
   "dependencies": {
     "express": "^4.17.1",
+    "mongoose": "^6.0.12",
     "mysql": "^2.18.1",
     "mysql2": "^2.3.0",
     "sequelize": "^6.6.5"
   },
   "devDependencies": {
-    "nodemon": "^2.0.13"
+    "nodemon": "^2.0.14"
   }
 }
