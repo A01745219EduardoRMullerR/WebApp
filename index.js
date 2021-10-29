@@ -2,12 +2,13 @@ const express = require('express')
 const app = express()
 const path = require('path')
 const mongoose = require("mongoose");
+const playlistRoutes = require('./router/playlists')
 
 
 app.use(express.static(path.join(__dirname, 'public')))
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
-app.use("/ciudades",ciudadesRoutes)
+app.use("/ciudades", playlistRoutes)
 
 mongoose.connect('mongodb://user10:root@54.198.161.35:27017/base10?authSource=admin')
     .then(()=>{

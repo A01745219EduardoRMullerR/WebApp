@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1458e567-6a77-45bf-a3c4-71816ad1fd53" name="Changes" comment="Esquema creado, falta crear las funciones en controllers/playlists.js">
+    <list default="true" id="1458e567-6a77-45bf-a3c4-71816ad1fd53" name="Changes" comment="Controllers avanzado, solo falta revisar que los strings de titulo y descripcion cumplan con la validacion (size)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/playlists.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/playlists.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +23,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1ysXU1e3PhWaOilxHrlsaoRU23b" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -57,7 +66,8 @@
       <workItem from="1633645331206" duration="1215000" />
       <workItem from="1634076364584" duration="392000" />
       <workItem from="1635313863868" duration="1605000" />
-      <workItem from="1635513880262" duration="304000" />
+      <workItem from="1635513880262" duration="868000" />
+      <workItem from="1635519504804" duration="8204000" />
     </task>
     <task id="LOCAL-00001" summary="Esquema creado, falta crear las funciones en controllers/playlists.js">
       <created>1635315466105</created>
@@ -66,7 +76,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635315466105</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Controllers avanzado, solo falta revisar que los strings de titulo y descripcion cumplan con la validacion (size)">
+      <created>1635514383456</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1635514383456</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -86,6 +103,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Esquema creado, falta crear las funciones en controllers/playlists.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="Esquema creado, falta crear las funciones en controllers/playlists.js" />
+    <MESSAGE value="Controllers avanzado, solo falta revisar que los strings de titulo y descripcion cumplan con la validacion (size)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Controllers avanzado, solo falta revisar que los strings de titulo y descripcion cumplan con la validacion (size)" />
   </component>
 </project>
