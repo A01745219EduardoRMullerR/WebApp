@@ -8,7 +8,7 @@ const playlistRoutes = require('./router/playlists')
 app.use(express.static(path.join(__dirname, 'public')))
 app.use(express.json())
 app.use(express.urlencoded({extended:true}))
-app.use("/ciudades", playlistRoutes)
+app.use("/post", playlistRoutes)
 
 mongoose.connect('mongodb://user10:root@54.198.161.35:27017/base10?authSource=admin')
     .then(()=>{
