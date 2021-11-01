@@ -80,20 +80,20 @@ exports.actualizarPlaylists = async (request, response) => {
         response.json({Status: 200})
     }catch(error){
         console.log(error)
-        res.json({Status: 422})
+        response.json({Status: 422})
     }
 }
 
 exports.borrarPlaylist = async (request, response) => {
     try{
         await PlaylistsSchema.findByOneAndRemove(req.body)
-    console.log("Element deleted.")
-    res.json({Status: 200})
+        console.log("Element deleted.")
+        response.json({Status: 200})
     }catch(e){
         console.log(e)
         const err = new Error("Something went wrong deleting the the element.")
         console.log(err)
-        res.json({Status: 500})
+        response.json({Status: 500})
     }
     
 }
