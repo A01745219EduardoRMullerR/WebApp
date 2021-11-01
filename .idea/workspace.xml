@@ -5,8 +5,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Views/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controller/playlists.js" beforeDir="false" afterPath="$PROJECT_DIR$/controller/playlists.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/router/playlists.js" beforeDir="false" afterPath="$PROJECT_DIR$/router/playlists.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,6 +44,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -70,6 +69,9 @@
       <workItem from="1635313863868" duration="1605000" />
       <workItem from="1635513880262" duration="868000" />
       <workItem from="1635519504804" duration="8204000" />
+      <workItem from="1635780958421" duration="758000" />
+      <workItem from="1635781729526" duration="169000" />
+      <workItem from="1635781925382" duration="532000" />
     </task>
     <task id="LOCAL-00001" summary="Esquema creado, falta crear las funciones en controllers/playlists.js">
       <created>1635315466105</created>
