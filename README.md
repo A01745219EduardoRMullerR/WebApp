@@ -32,6 +32,7 @@ Dentro de controllers esta la funcion asincrona agregarPlaylist donde se envia u
 * Metodo: *post
 * Body: *JSON*
 * Validaciones: Titulo debe de tener entre 5 y 50 caracteres, Descripcion debe de tener entre 50 y 250. Ambos campos deben de ser strings.
+* Respuesta: HTTP Status 200 
 
 Ejemplo: 
 ```JSON
@@ -60,6 +61,7 @@ En Controllers esta la funcion asincrona obtenerPlaylists que regresa las playli
 * Metodo: *get
 * Body: *JSON*
 * Validaciones: 
+* Respuesta: JSON con el contenido de la base de datos
 
 Ejemplo de retorno:
 ```JSON
@@ -84,6 +86,7 @@ Dentro de Controllers esta la funcion asincrona actualizarPlaylists que toma com
 * Metodo: *post
 * Body: *JSON*
 * Validaciones: dentro de filtro debe de haber el campo Nombre
+* Respuesta: HTTP Status 200
 
 ```JSON
 {
@@ -108,6 +111,7 @@ Dentro de Controllers esta la funcion asincrona borrarPlaylist
 * Metodo: *post
 * Body: *JSON*
 * Validaciones: 
+* Respuesta: HTTP Status 200
 
 Ejemplo de body: 
  ```JSON
